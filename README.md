@@ -7,7 +7,7 @@ Python 🐍
 
 Tkinter for GUI 💻
 
-Machine Learning (trained on real-world news data) 🤖
+Machine Learning (trained on real-world news data) 🤖  from kaggle https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
 ✅ Features
 🧠 Predicts if the news is real or fake
@@ -41,7 +41,15 @@ Edit
 python fake_news_gui.py
 🖥️ The app will open in a new window. Paste any news text and hit Check News!
 
-📊 Model Info
+How it was builted:
+STEP-1: Download the data sets 
+STEP-2: Based on your data set combine both true and false data set
+STEP-3: Vectorize the datas
+STEP-4: Train the model 
+STEP-5: Create a GUI
+STEP-6: Test the Model
+
+📊  Model Info
 The model was trained on a dataset of real and fake news articles with 99.44% accuracy.
 
 Class	Precision	Recall	F1-Score
